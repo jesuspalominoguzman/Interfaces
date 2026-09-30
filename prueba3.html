@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba de Google Fonts</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');</style>
+</head>
+<body>
+
+    <h1>Pruebas de Carga</h1>
+
+    <hr>
+
+    <div style="font-family: 'Rubik Glitch', sans-serif; font-size: 24px;">
+        <h2> Rubik Glitch cargada con link </h2>
+        <p>
+            Al tener tantos detalles minúsculos y cortes en las letras, esta fuente pesa mucho más que una estándar. 
+            El navegador debe descargar un archivo SVG/WOFF2 más grande de lo habitual.
+        </p>
+    </div>
+
+    <hr>
+
+    <div style="font-family: 'Zhi Mang Xing', serif; font-size: 24px;">
+        <h2> Zhi Mang Xing cargada con import </h2>
+        <p>
+            Las fuentes chinas, japonesas o coreanas son los archivos tipográficos más pesados de internet. 
+            Como además estamos usando un @import, el navegador tiene que detenerse, procesar esto, pedir la fuente gigante y luego cambiarla. ¡El salto visual está garantizado!
+        </p>
+    </div>
+
+</body>
+</html>
