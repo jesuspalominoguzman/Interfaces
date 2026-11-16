@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prueba inicial</title>
+    </head>
+    <body>
+        <h1>Encabezado de prueba</h1>
+        <p>Este es un párrafo de prueba para realizar los experimentos.</p>
+        <p>El precio es <50 euros</p>.
+    </body>
+
+    <!--
+    Observaciones de los experimentos:
+    1. Al borrar el DOCTYPE, visualmente no cambia casi nada en una página tan sencilla, pero en la consola document.compatMode devuelve "BackCompat" en lugar de "CSS1Compat".
+    2. Al escribir tres líneas en blanco entre palabras, el navegador las ignora y muestra un único espacio. HTML colapsa los espacios y saltos de línea múltiples en uno solo.
+    3. Cambiar <p> por <P> funciona exactamente igual porque HTML no distingue entre mayúsculas y minúsculas en las etiquetas, pero por convención y buenas prácticas en HTML5 se debe escribir siempre en minúsculas.
+    4. Al quitar </p>, la página no se rompe; el navegador cierra automáticamente el párrafo al llegar al cierre del body o al abrir otro elemento de bloque, aunque es mala práctica omitirlo.
+    5. Al escribir <p>El precio es <50 euros</p>, el texto se muestra correctamente porque después del símbolo < va un número y el navegador entiende que no es una etiqueta, pero es incorrecto y dará error en el validador.
+    -->
+
+</html>
